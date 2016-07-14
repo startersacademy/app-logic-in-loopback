@@ -1,0 +1,20 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "mongodb",
+    "host": "",
+    "port": 0,
+    "database": "",
+    "username": "",
+    "password": ""
+  },
+  "memory": {
+    "name": "memory",
+    "connector": "memory"
+  },
+  "memoryWithFile": {
+    "name": "memory",
+    "connector": "memory",
+    "file": "./data/data.json"
+  }
+}

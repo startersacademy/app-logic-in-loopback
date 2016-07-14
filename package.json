@@ -1,0 +1,31 @@
+{
+  "name": "app-logic-in-loopback",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "private": true,
+  "scripts": {
+    "start": "node ./server/server.js",
+    "app": "node ./server/server.js"
+  },
+  "dependencies": {
+    "compression": "1.6.2",
+    "csurf": "1.9.0",
+    "express-session": "1.14.0",
+    "helmet": "2.1.1",
+    "hpp": "0.2.1",
+    "loopback": "2.29.1",
+    "loopback-boot": "2.19.0",
+    "loopback-component-explorer": "2.5.0",
+    "loopback-connector-mongodb": "1.15.2",
+    "method-override": "2.3.6",
+    "morgan": "1.7.0",
+    "response-time": "2.3.1",
+    "underscore": "1.8.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "description": ""
+}

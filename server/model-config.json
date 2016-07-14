@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../models",
+      "../common/models",
+      "../plugins/models",
+      "./models",
+      "loopback-component-passport/lib/models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../mixins",
+      "../common/mixins",
+      "./mixins",
+      "../plugins/models/mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db",
+    "public": true
+  }
+}
