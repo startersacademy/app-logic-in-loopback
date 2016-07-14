@@ -1,6 +1,6 @@
 module.exports = function collectStats(app) {
   'use strict'
-  var log = require('debug')('boot:attach-boot-options')
+  const log = require('debug')('boot:attach-boot-options')
 
   if (app.settings.collectStats) {
     log('collect stats')
