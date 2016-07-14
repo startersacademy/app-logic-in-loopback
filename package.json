@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "compression": "1.6.2",
+    "cookieparser": "0.1.0",
     "csurf": "1.9.0",
     "express-session": "1.14.0",
     "helmet": "2.1.1",
@@ -16,8 +17,11 @@
     "loopback": "2.29.1",
     "loopback-boot": "2.19.0",
     "loopback-component-explorer": "2.5.0",
+    "loopback-component-passport": "2.1.0",
     "loopback-connector-mongodb": "1.15.2",
+    "loopback-ds-timestamp-mixin": "3.4.0",
     "method-override": "2.3.6",
+    "moment": "2.14.1",
     "morgan": "1.7.0",
     "response-time": "2.3.1",
     "underscore": "1.8.3"
