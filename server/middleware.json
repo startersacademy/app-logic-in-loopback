@@ -58,6 +58,7 @@
     "loopback#token": {}
   },
   "parse": {
+    "cookie-parser": {},
     "body-parser#urlencoded": {
       "params": {
         "extended": true
